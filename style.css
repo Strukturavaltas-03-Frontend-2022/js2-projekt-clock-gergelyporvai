@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Cyberverse";
+  src: url("./assets/Cyberverse.otf");
+}
+
+html,
+body {
+  margin: 0;
+  font-family: Cyberverse;
+}
+
+.main {
+  display: flex;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.clock__main {
+  display: flex;
+  background-color: black;
+  width: 33%;
+  height: 33%;
+  min-width: 600px;
+  min-height: 200px;
+  box-sizing: border-box;
+  padding: 50px;
+  color: darkturquoise;
+  font-size: 4.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  margin: 20px;
+}
